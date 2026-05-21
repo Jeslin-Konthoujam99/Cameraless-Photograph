@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menuRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/menuTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/menuSpinner"
+        android:text="Setting Name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:layout_marginRight="8dp" />
+
+    <Spinner
+        android:id="@+id/menuSpinner"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:spinnerMode="dropdown" />
+
+</RelativeLayout>

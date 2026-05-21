@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cameraless Photography</string>
+
+    <!-- ═══ EXISTING: Camera Settings (unchanged) ═══ -->
+
+    <string-array name="orientationSpinnerArray">
+        <item>Auto</item>
+        <item>Portrait</item>
+        <item>Landscape</item>
+        <item>Portrait Inverted</item>
+    </string-array>
+
+    <string-array name="aspect_ratioSpinnerArray">
+        <item>Auto</item>
+        <item>16:9</item>
+        <item>4:3</item>
+        <item>1:1</item>
+    </string-array>
+
+    <string-array name="exposureSpinnerArray">
+        <item>Auto</item>
+        <item>1/1000</item>
+        <item>1/500</item>
+        <item>1/250</item>
+        <item>1/125</item>
+        <item>1/60</item>
+        <item>1/30</item>
+        <item>1/15</item>
+    </string-array>
+
+    <string-array name="white_balanceSpinnerArray">
+        <item>Auto</item>
+        <item>Daylight</item>
+        <item>Fluorescent</item>
+        <item>Incandescent</item>
+        <item>Cloudy</item>
+        <item>Twilight</item>
+        <item>Shade</item>
+    </string-array>
+
+    <string-array name="focalLenSpinnerArray">
+        <item>Auto</item>
+        <item>24mm</item>
+        <item>35mm</item>
+        <item>50mm</item>
+        <item>85mm</item>
+        <item>135mm</item>
+        <item>200mm</item>
+    </string-array>
+
+    <string-array name="defaltSpinnerArray">
+        <item>N/A</item>
+    </string-array>
+
+    <!-- ═══ NEW: Search Activity Dropdowns ═══ -->
+
+    <!-- Weather preferences -->
+    <string-array name="searchWeatherArray">
+        <item>Any</item>
+        <item>Clear</item>
+        <item>Clouds</item>
+        <item>Rain</item>
+        <item>Drizzle</item>
+        <item>Thunderstorm</item>
+        <item>Snow</item>
+        <item>Mist</item>
+        <item>Fog</item>
+        <item>Haze</item>
+    </string-array>
+
+    <!-- Direction preferences (maps to yaw) -->
+    <string-array name="searchDirectionArray">
+        <item>Any</item>
+        <item>North</item>
+        <item>Northeast</item>
+        <item>East</item>
+        <item>Southeast</item>
+        <item>South</item>
+        <item>Southwest</item>
+        <item>West</item>
+        <item>Northwest</item>
+    </string-array>
+
+    <!-- Elevation preferences (maps to pitch) -->
+    <string-array name="searchElevationArray">
+        <item>Any</item>
+        <item>Looking up</item>
+        <item>Slightly up</item>
+        <item>Horizontal</item>
+        <item>Slightly down</item>
+        <item>Looking down</item>
+    </string-array>
+
+    <!-- Time of day preferences -->
+    <string-array name="searchTimeArray">
+        <item>Any</item>
+        <item>Morning (6-12)</item>
+        <item>Afternoon (12-17)</item>
+        <item>Evening (17-21)</item>
+        <item>Night (21-6)</item>
+    </string-array>
+
+    <!-- Season preferences -->
+    <string-array name="searchSeasonArray">
+        <item>Any</item>
+        <item>Spring</item>
+        <item>Summer</item>
+        <item>Autumn</item>
+        <item>Winter</item>
+    </string-array>
+
+</resources>

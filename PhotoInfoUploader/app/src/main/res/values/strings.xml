@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PhotoInfoUploader</string>
+    <string name="album_hint_take_photo">Tap the camera button to start taking photos</string>
+    <string name="album_hint_expand_menu">Tap the bottom-right button to expand the menu</string>
+</resources>
