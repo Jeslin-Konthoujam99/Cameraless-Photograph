@@ -20,7 +20,7 @@ import java.util.Locale;
 public class WeatherAPICaller {
 
     private static final String TAG = "WeatherAPICaller";
-    private static final String API_KEY = "114cc9fb42f75ec87425c7ec0f528998";
+    private static final String API_KEY = "";
     private HashMap<String, String> weatherInfo;
     private Context context;
 
